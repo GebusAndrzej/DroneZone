@@ -1,0 +1,20 @@
+
+.MainContainer {
+    width:100%;
+    display: grid;
+    grid-template-columns: 2fr 8fr 2fr;
+}
+
+.MainContainer>*:first-child{
+    grid-column: 2;
+    color:white
+}
+
+
+
+
+
+
+.bg1 {
+    background-color: #F6F6F6;
+}

@@ -1,0 +1,69 @@
+.About_section{
+    min-height:600px;
+}
+
+.About_Drones{
+    width:100%;
+    margin-top:113px;
+    display:flex;
+    /* gap:81px; */
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.About_DroneCard {
+    color:black;
+    width:250px;
+    display:grid;
+    grid-template-rows: 100px 40px 121px;
+    text-align: center;
+}
+
+.About_DroneCard figure{
+    margin:0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.About_DroneCard figure img{
+    max-width: 100%;
+}
+
+.About_DroneCard h3{
+    padding-top:20px;
+    margin:0;
+    color: #CB0035;
+    background: -webkit-linear-gradient(#CB0035, #E06900);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: -webkit-linear-gradient(#CB0035, #E06900);;
+}
+
+.About_DroneCard p {
+    padding:0px 30px;
+    color:#5E6372;
+    font-weight: 600;
+    font-size: .8em;
+}
+
+.About_Button{
+    background-color: transparent;
+    border-radius: 25px;
+    height: 50px;
+    min-width:205px;
+    box-sizing: border-box;
+    border:none;
+    font-weight: bold;
+    position: relative;
+    cursor: pointer;
+    background-color: #264699;
+    color:white;
+}
+
+.About_ButtonBox{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-top:74px;
+}

@@ -1,0 +1,162 @@
+.Home_section {
+    position: relative;
+    min-height:100vh;
+    background: linear-gradient(39deg, #CB0035 0%, #E06900 100%) 0% 0% no-repeat;
+    z-index: 0;
+}
+
+.Home_section:before{
+    content: '';
+    position:absolute;
+    width:100%;
+    height:100%;
+    background:  url("../../../assets/images/home.png");
+    background-position: 0% 160%;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    opacity: .5;
+    z-index: -0;
+}
+
+
+.Home_Nav{
+    width:auto;
+    padding-top:38px;
+    height:48px;
+    display:flex;
+    flex-direction: row;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.Home_Logo{
+    font-size:1.6em;
+    display:flex;
+    align-items: flex-end;
+}
+
+.Home_BurgerMenu {
+    z-index: 10;
+    margin-left: auto;
+    font-size: 1.6em;
+    cursor: pointer;
+}
+
+.Home_Menu{
+    display:flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: flex-end;
+    gap: 20px;
+}
+.Home_MenuMobile{
+    position: absolute;
+    top: 70px;
+    right:0;
+    display:flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-end;
+    gap:15px;
+}
+
+.Home_Menu a, .Home_MenuMobile a {
+    text-decoration:none;
+    color:white;
+    font-size: .8em;
+    opacity: .8;
+    transition-duration: .2s;
+}
+.Home_Menu a:hover{
+    opacity: 1;
+}
+
+.Home_Slogan{
+    color:white;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top:130px;
+}
+
+.Home_Slogan h2 {
+    text-align: center;
+    font-size: 1.7em;
+    font-weight: lighter;
+}
+.Home_Slogan p {
+    max-width: 750px;
+    text-align: center;
+    min-height:92px;
+}
+.Home_ButtonBox{
+    display: flex;
+    gap: 20px;
+}
+
+.Home_Button{
+    background-color: transparent;
+    border-radius: 25px;
+    height: 50px;
+    min-width:205px;
+    box-sizing: border-box;
+    border:none;
+    font-weight: bold;
+    position: relative;
+    cursor: pointer;
+}
+
+.Home_Button-white{
+    color:#D32721;
+    background-color: white;;
+}
+.Home_Button-transparent{
+    color:white;
+    font-weight: 500;
+}
+
+.Home_Button svg{
+    position: absolute;
+    left:25px;
+}
+
+.Home_section>svg {
+    position: absolute;
+    left:50%;
+    bottom: 30px;
+    transform: translateX(-50%);
+}
+
+@media (max-width:1000px) {
+    .Home_Nav{
+        height: auto;
+    }
+    .Home_Menu{
+        flex-direction: column;
+        display:none;
+    }
+    .Home_section:before{
+        background-size: 200%;
+        background-position: 50% 100%;
+    }
+}
+@media (min-width: 1000px) {
+    .Home_BurgerMenu{
+        visibility: hidden;
+    }
+}
+@media (max-width: 640px) {
+    .Home_Slogan{
+        max-width:100%;
+    }
+    .Home_ButtonBox{
+        flex-direction: column;
+    }
+    
+}
+@media(max-height:610px) {
+    .Home_section {
+        min-height: 700px;
+    }
+}
