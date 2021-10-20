@@ -1,3 +1,5 @@
+# Page created from [template](https://symu.co/freebies/templates-4/drone-zone-website-template/)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

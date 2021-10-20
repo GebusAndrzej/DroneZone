@@ -18,12 +18,12 @@ const Home = () => {
                     <div className="Home_BurgerMenu">
                         <FontAwesomeIcon icon={faBars} onClick={() => setMenuState(!menuState)} />                    </div>
                     <div className={!menuState ? "Home_Menu" : "Home_MenuMobile"}>
-                        <a href="/#Home">Home</a>
-                        <a href="/#About">About</a>
-                        <a href="/#Pricing">Pricing</a>
-                        <a href="/#Drones">Our drones</a>
-                        <a href="/#Realizations">Our realizations</a>
-                        <a href="/#Contact">Contact</a>
+                        <a href="#Home">Home</a>
+                        <a href="#About">About</a>
+                        <a href="#Pricing">Pricing</a>
+                        <a href="#Drones">Our drones</a>
+                        <a href="#Realizations">Our realizations</a>
+                        <a href="#Contact">Contact</a>
                     </div>
                 </nav>
 

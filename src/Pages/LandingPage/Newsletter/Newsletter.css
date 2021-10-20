@@ -1,0 +1,90 @@
+.Newsletter_Main{
+    height:490px;
+    position: relative;
+}
+.Newsletter_Main:before{
+    content:'';
+    display:block;
+    position: absolute;
+    width:100%;
+    height:100%;
+    background: linear-gradient(45deg,#CB0035,#E06900);
+    z-index: -2;
+}
+.Newsletter_Main:after{
+    content:'';
+    display:block;
+    position: absolute;
+    width:100%;
+    height:100%;
+    background:  url("../../../assets/images/roads.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 100% 53%;
+    opacity: .2;
+    z-index: -1;
+}
+
+.Newsletter_Wrapper{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.Newsletter_Title{
+    color:white;
+    font-weight: lighter;
+    font-size: 2.5em;
+}
+
+.Newsletter_ButtonBox{
+    border:1px solid #ffffff32;
+    background-color:rgba(255, 255, 255, 0.047);
+    border-radius: 25px;
+    padding:3px;
+    height:50px;
+    width:300px;
+    box-sizing: border-box;
+    position: relative;
+}
+.Newsletter_ButtonBox input {
+    padding-left:13px;
+    height:100%;
+    width:200px;
+    border:none;
+    background:none;
+    outline: none;
+    color:white;
+    font-weight: bolder;
+    font-size: .95rem;
+}
+.Newsletter_ButtonBox input::placeholder {
+    color:white;
+    font-weight: lighter;
+}
+.Newsletter_ButtonBox button {
+    position: absolute;
+    top:-1px;
+    right:-60px;
+    height:50px;
+    width: 130px;
+    border:1px solid white;
+    background-color:white;
+    border-radius: 25px;
+    color:#D32721;
+    font-weight: bold;
+    font-size: .95rem;
+}
+
+@media (max-width: 648px) {
+    .Newsletter_ButtonBox button {
+        top:70px;
+        left:50%;
+        transform: translateX(-50%);
+    }
+}
+@media (max-width: 1000px) {
+    .Newsletter_Title{
+        text-align: center;
+    }
+}

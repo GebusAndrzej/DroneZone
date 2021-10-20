@@ -1,5 +1,7 @@
 import React from 'react'
 
+import DroneImg from '../../../assets/images/Drone.png';
+
 import './Drone.css'
 
 const Drone = () => {
@@ -24,7 +26,7 @@ const Drone = () => {
                     </div>
 
                 </div>
-                <img src="/assets/images/Drone.png" alt="Drone" />
+                <img src={DroneImg} alt="Drone" />
             </div>
         </section>
     )

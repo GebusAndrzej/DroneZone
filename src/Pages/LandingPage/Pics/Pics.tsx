@@ -1,5 +1,9 @@
 import React from 'react'
 
+import pic_top from '../../../assets/images/foto_top.png';
+import pic_bot from '../../../assets/images/foto_bot.png';
+
+
 import './Pics.css'
 
 const Pics = () => {
@@ -9,7 +13,7 @@ const Pics = () => {
 
                 <div className="Pics_Section">
 
-                    <img src="/assets/images/foto_top.png" alt="foto" className="Pics_leftpic" />
+                    <img src={pic_top} alt="foto" className="Pics_leftpic" />
                     <div></div>
                     <div className="Pics_TextBox">
                         <h2>Nature from the air</h2>
@@ -30,7 +34,7 @@ const Pics = () => {
                         <button className="About_Button">Ask For price</button>
 
                     </div>
-                    <img src="/assets/images/foto_bot.png" alt="foto" className="Pics_rightpic" />
+                    <img src={pic_bot} alt="foto" className="Pics_rightpic" />
                 </div>
 
             </div>

@@ -1,5 +1,10 @@
 import React from 'react'
 
+import drone1 from '../../../assets/icons/drone-1.png';
+import drone2 from '../../../assets/icons/drone-2.png';
+import propeller from '../../../assets/icons/propeller.png';
+import control from '../../../assets/icons/control.png';
+
 import '../LandingPage.css'
 import './About.css'
 
@@ -10,7 +15,7 @@ const About = () => {
                 <div className="About_Drones">
                     <div className="About_DroneCard">
                         <figure>
-                            <img src="assets/images/icons/drone-1.png" alt="item" />
+                            <img src={drone1} alt="item" />
                         </figure>
                         <h3>From Air</h3>
                         <p>Pellentesque eget nunc sit amet urna ullamcorper fermentum et eu leo.</p>
@@ -18,7 +23,7 @@ const About = () => {
 
                     <div className="About_DroneCard">
                         <figure>
-                            <img src="assets/images/icons/drone-2.png" alt="item" />
+                            <img src={drone2} alt="item" />
                         </figure>
                         <h3>Best drones</h3>
                         <p>Pellentesque eget nunc sit amet urna ullamcorper fermentum et eu leo.</p>
@@ -26,7 +31,7 @@ const About = () => {
 
                     <div className="About_DroneCard">
                         <figure>
-                            <img src="assets/images/icons/propeller.png" alt="item" />
+                            <img src={propeller} alt="item" />
                         </figure>
                         <h3>Speed</h3>
                         <p>Pellentesque eget nunc sit amet urna ullamcorper fermentum et eu leo.</p>
@@ -34,7 +39,7 @@ const About = () => {
 
                     <div className="About_DroneCard">
                         <figure>
-                            <img src="assets/images/icons/control.png" alt="item" />
+                            <img src={control} alt="item" />
                         </figure>
                         <h3>Long range</h3>
                         <p>Pellentesque eget nunc sit amet urna ullamcorper fermentum et eu leo.</p>
