@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/DroneZone/static/css/main.4bb45e36.chunk.css",
+    "main.js": "/DroneZone/static/js/main.29f07b92.chunk.js",
+    "main.js.map": "/DroneZone/static/js/main.29f07b92.chunk.js.map",
+    "runtime-main.js": "/DroneZone/static/js/runtime-main.3e6bf96b.js",
+    "runtime-main.js.map": "/DroneZone/static/js/runtime-main.3e6bf96b.js.map",
+    "static/js/2.256ecc00.chunk.js": "/DroneZone/static/js/2.256ecc00.chunk.js",
+    "static/js/2.256ecc00.chunk.js.map": "/DroneZone/static/js/2.256ecc00.chunk.js.map",
+    "static/js/3.a69463a9.chunk.js": "/DroneZone/static/js/3.a69463a9.chunk.js",
+    "static/js/3.a69463a9.chunk.js.map": "/DroneZone/static/js/3.a69463a9.chunk.js.map",
+    "index.html": "/DroneZone/index.html",
+    "static/css/main.4bb45e36.chunk.css.map": "/DroneZone/static/css/main.4bb45e36.chunk.css.map",
+    "static/js/2.256ecc00.chunk.js.LICENSE.txt": "/DroneZone/static/js/2.256ecc00.chunk.js.LICENSE.txt",
+    "static/media/Home.css": "/DroneZone/static/media/home.f99c5857.png",
+    "static/media/Map.css": "/DroneZone/static/media/map.7e1acb91.png",
+    "static/media/Newsletter.css": "/DroneZone/static/media/roads.3d2c19fc.png",
+    "static/media/scrollIcon.e2b3fd3d.svg": "/DroneZone/static/media/scrollIcon.e2b3fd3d.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.3e6bf96b.js",
+    "static/js/2.256ecc00.chunk.js",
+    "static/css/main.4bb45e36.chunk.css",
+    "static/js/main.29f07b92.chunk.js"
+  ]
+}
