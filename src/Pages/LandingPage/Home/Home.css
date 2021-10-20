@@ -54,6 +54,7 @@
     margin-left: auto;
     font-size: 1.6em;
     cursor: pointer;
+    color:white;
 }
 
 .Home_Menu{
@@ -96,7 +97,7 @@
 
 .Home_Slogan h2 {
     text-align: center;
-    font-size: 1.7em;
+    font-size: 1.9em;
     font-weight: lighter;
 }
 .Home_Slogan p {

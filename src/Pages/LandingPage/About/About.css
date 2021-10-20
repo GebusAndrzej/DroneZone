@@ -52,6 +52,7 @@
     border-radius: 25px;
     height: 50px;
     min-width:205px;
+    max-width:205px;
     box-sizing: border-box;
     border:none;
     font-weight: bold;

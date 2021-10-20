@@ -16,6 +16,7 @@ const Pics = () => {
                         <p>
                             Pellentesque eget nunc sit amet urna ullamcorper fermentum et eu leo. Nunc vel nibh tempor, pharetra lectus congue, luctus orci nec ultricies sem efficitur quis. Integer bibendum eget metus ac accumsan.
                         </p>
+                        <button className="About_Button">Ask For price</button>
 
                     </div>
                 </div>
@@ -26,6 +27,8 @@ const Pics = () => {
                         <p>
                             Mauris consequat libero metus, nec ultricies sem efficitur quis. Integer bibendum eget metus ac accumsan. Integer sit amet lacus egestas, semper est quis, viverra ex. Pellentesque eget nunc sit amet urna ullamcorper fermentum et eu leo.
                         </p>
+                        <button className="About_Button">Ask For price</button>
+
                     </div>
                     <img src="/assets/images/foto_bot.png" alt="foto" className="Pics_rightpic" />
                 </div>
