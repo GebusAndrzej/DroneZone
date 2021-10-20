@@ -1,0 +1,96 @@
+
+.Drone_section{
+    min-height: 600px;
+    color:#5E6372;
+    padding-top:100px;
+}
+
+.Drone_wrapper{
+    display: grid;
+    grid-template-columns: 5fr 3fr;
+    color:#5E6372;
+}
+
+.Drone_Title{
+    letter-spacing: 0px;
+    color: #CA0034;
+    font-size: 1.8em;
+}
+.Drone_Subtitle{
+    letter-spacing: 0px;
+    color: #5E6372;
+    font-weight: 600;
+    line-height: 1.8em;
+    font-size: .9em;
+    margin-bottom: 40px;
+}
+
+.Drone_Bulletpoints{
+    display:grid;
+    grid-template-columns: 3fr 2fr;
+    gap:30px;
+    counter-reset: Bulletpoint;
+}
+.Drone_Bp{
+    font-size: 13px;
+    line-height: 1.5rem;
+    letter-spacing: 0px;
+    color: #A7ACBC;
+    display:grid;
+    grid-template-columns: 70px 1fr;
+    grid-auto-flow: column;
+    min-height: 91px;
+}
+.Drone_Bp:before{
+    counter-increment: Bulletpoint; 
+    content:counter(Bulletpoint);
+    font-weight: bold;
+    box-sizing: border-box;
+    display:block;
+    position: relative;
+    color: #3F4E76;
+    border: 2px solid #C7CDE0;
+    text-align: center;
+    border-radius: 25px; 
+    font-size: 1.5em;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+}
+.Drone_row{
+    display:flex;
+    flex-direction: column;
+    gap:30px;
+}
+
+
+.Drone_wrapper img{
+    position: absolute;
+    z-index: -1;
+    right:0;
+    transform: translateY(-100px);
+}
+
+@media (max-width:1300px){
+    .Drone_wrapper img{
+        display:none;
+    }
+    .Drone_wrapper{
+        grid-template-columns: 1fr;
+    }
+    .Drone_Bulletpoints{
+        grid-template-columns: 1fr 1fr;
+    }
+    .Drone_Title{
+        text-align: center;
+    }
+    .Drone_Subtitle{
+        text-align: center;
+    }
+}
+
+@media (max-width:800px) {
+    .Drone_Bulletpoints{
+        grid-template-columns: 1fr;
+    }
+}

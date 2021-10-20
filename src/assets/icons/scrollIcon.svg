@@ -1,6 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="76" height="70.669" viewBox="0 0 76 70.669">
+<svg xmlns="http://www.w3.org/2000/svg" width="83" height="70.669" viewBox="0 0 76 70.669">
   <g id="Scrool_down_btn" data-name="Scrool down btn" transform="translate(-920 -905)">
     <path id="Rounded_Rectangle_2" data-name="Rounded Rectangle 2" d="M958.5,948A12.5,12.5,0,0,1,946,935.5v-18a12.5,12.5,0,0,1,25,0v18A12.5,12.5,0,0,1,958.5,948Zm-.16-35.01a1.712,1.712,0,0,0-1.71,1.71v3.34a1.712,1.712,0,0,0,1.71,1.71h.33a1.712,1.712,0,0,0,1.71-1.71V914.7a1.712,1.712,0,0,0-1.71-1.71Z" fill="#fff" opacity="0.6"/>
-    <text id="scrool_down" data-name="scrool down" transform="translate(958 971.669)" fill="#fff" font-size="14" font-family="SegoeUI, Segoe UI" opacity="0.302"><tspan x="-37.697" y="0">scrool down</tspan></text>
+    <text id="scrool_down" data-name="scrool down" transform="translate(958 971.669)" fill="#fff" font-size="14" font-family="SegoeUI, Segoe UI" opacity="0.302"><tspan x="-37.697" y="0">scroll down</tspan></text>
   </g>
 </svg>

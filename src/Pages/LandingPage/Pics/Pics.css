@@ -1,0 +1,43 @@
+.Pics_MainContainer{
+    min-height:1280px;
+    background-color:#F6F6F6;
+}
+.Pics_Container{
+    display:flex;
+    flex-direction: column;
+}
+.Pics_Section{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+}
+.Pics_Section img{
+    height:641px;
+    position:absolute;
+}
+.Pics_leftpic{
+    width: 50%;
+    left:0;
+}
+.Pics_rightpic{
+    width:50%;
+    right:0;
+}
+.Pics_TextBox{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    height:641px;
+    padding:50px;
+    box-sizing: border-box;
+    font-size: 14px;
+    line-height: 1.6rem;
+}
+.Pics_TextBox h2{
+    color: #CA0034;
+    font-size: 1.9em;
+}
+.Pics_TextBox p{
+    color:#5E6372;
+    letter-spacing: 0px;
+    font-weight: bolder;
+}

@@ -1,7 +1,7 @@
 .Home_section {
     position: relative;
     min-height:100vh;
-    background: linear-gradient(39deg, #CB0035 0%, #E06900 100%) 0% 0% no-repeat;
+    
     z-index: 0;
 }
 
@@ -15,7 +15,20 @@
     background-size: 100%;
     background-repeat: no-repeat;
     opacity: .5;
-    z-index: -0;
+    z-index: -4;
+}
+
+.Home_section:after{
+    content: '';
+    position:absolute;
+    width:100%;
+    height:100%;
+    background: linear-gradient(39deg, #CB0035 0%, #E06900 100%) 0% 0% no-repeat;
+    background-position: 0% 160%;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    opacity: 1;
+    z-index: -5;
 }
 
 
@@ -33,6 +46,7 @@
     font-size:1.6em;
     display:flex;
     align-items: flex-end;
+    color:white;
 }
 
 .Home_BurgerMenu {
